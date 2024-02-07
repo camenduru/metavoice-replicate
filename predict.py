@@ -701,7 +701,7 @@ class Predictor(BasePredictor):
         )
     def predict(
         self,
-        input_audio: Path = Input(description="Input Image"),
+        input_audio: Path = Input(description="Input Audio"),
         text: str = Input(default="This is a demo of text to speech by MetaVoice-1B, an open-source foundational audio model by MetaVoice."),
     ) -> Path:
         self.sampling_config.spk_cond_path = input_audio
