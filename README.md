@@ -8,11 +8,15 @@ https://replicate.com/camenduru/metavoice
 ### 🧬 Code
 https://github.com/metavoiceio/metavoice-src
 
-### 📄 Paper
+### 🌐 Page
+https://themetavoice.xyz
 
+### 📦 Model
+https://huggingface.co/metavoiceio/metavoice-1B-v0.1
 
 ### 🖼 Output
 
+https://github.com/camenduru/metavoice-replicate/assets/54370274/e254504f-c262-4ed8-ad96-fb39acb328c7
 
 ### 🏢 Sponsor
 https://replicate.com
