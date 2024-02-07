@@ -92,7 +92,6 @@ class Predictor(BasePredictor):
         command = 'cd /content/metavoice-src && python fam/llm/serving.py --huggingface_repo_id="metavoiceio/metavoice-1B-v0.1"'
         thread = threading.Thread(target=run_command_in_thread, args=(command,))
         thread.start()
-        thread.join()
     def predict(
         self,
         input_audio: Path = Input(description="Input Image"),
